@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+No se logro terminar todo el ejercicio aun.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Dentro del proyecto se encuentra el archivo Calculadora.csv, que es para ingresar el balance en dolares y el porcentaje de cada criptomoneda a la cual se quiere invertir.
+La vista se encuentra en 'home/index'
