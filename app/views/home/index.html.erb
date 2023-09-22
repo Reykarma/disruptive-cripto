@@ -1,0 +1,35 @@
+
+<section id="calculator">
+  <div id="title-page">
+    <h1>Calculadora de balance</h1>
+  </div>
+  <div id="input-csv" class="text-center mt-5">
+    <%= form_tag('/investment/quote', multipart: true) do %>
+      <%= file_field_tag 'csv_file' %>
+      <%= submit_tag 'Subir CSV' %>
+    <% end %>
+  </div>
+  <div id="table-cripto">
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col">
+          Mombre
+        </div>
+        <div class="col">
+          Precio USD
+        </div>
+        <div class="col">
+          Total moneda
+        </div>
+        <div class="col">
+          Retorno mes
+        </div>
+        <div class="col">
+          Retorno Anual
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
